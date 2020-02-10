@@ -1,0 +1,70 @@
+/* IMPORT */
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+/* Header */
+
+header {
+    height: 56em;
+    background-image: url("../img/hero.jpg");
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: 1;
+}
+
+header nav {
+    padding-top: 2em;
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+}
+
+header nav ul {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 1em;
+    margin-right: 1em;
+    text-transform: uppercase;
+}
+
+header nav ul img {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.fakebody {
+    position: relative;
+    margin: 0 0 0 0;
+    z-index: 999;
+    background-color: #ffffff;
+}
+
+.streamer-1 {
+    text-transform: uppercase;
+    padding: 5em 0 5em 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.streamer-1 p {
+    text-transform: lowercase;
+    color: gray;
+    font-size: 20px;
+}
