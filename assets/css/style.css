@@ -6,6 +6,11 @@ body {
     margin: 0;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
+
 /* Header */
 
 header {
@@ -63,6 +68,7 @@ header nav ul img {
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    background-color: #F7F7F7;
 }
 
 .streamer-1 p {
@@ -181,7 +187,7 @@ header nav ul img {
     width: 100%;
     height: 204px;
     margin: 0 auto;
-    background-image: url(../img/seat-red.jpg);
+    background-image: url(../img/seat-black.jpg);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -286,12 +292,14 @@ header nav ul img {
 /* Streamer 5 */
 
 .streamer-5 {
-    padding: 2em 0 2em 0;
+    overflow: hidden;
+    padding: 3em 0 3em 0;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    background-color: #F7F7F7;
 }
 
 .streamer-5 h1 {
@@ -302,4 +310,120 @@ header nav ul img {
 .streamer-5 p, .streamer-5 span {
     color: gray;
     font-size: 20px;
+}
+
+/* Streamer 6 */
+
+.streamer-6 {
+    overflow: hidden;
+}
+
+.streamer-6 .left {
+    float: left;
+    height: 600px;
+    width: 33.33%;
+}
+
+.streamer-6 .center {
+    float: left;
+    height: 600px;
+    width: 33.33%;
+}
+
+.streamer-6 .right {
+    float: right;
+    height: 600px;
+    width: 33.33%;
+}
+
+.streamer-6 .left div:nth-child(1) {
+    float: left;
+    width: 50%;
+    height: 300px;
+    background-image: url(../img/l1.jpg);
+    background-size: cover;
+}
+
+.streamer-6 .left div:nth-child(2) {
+    float: right;
+    width: 50%;
+    height: 300px;
+    background-image: url(../img/l2.jpg);
+    background-size: cover;
+}
+
+.streamer-6 .left div:nth-child(3) {
+    float: left;
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/l3.jpg);
+    background-size: cover;
+}
+
+.streamer-6 .center div:nth-child(1) {
+    float: left;
+    width: 50%;
+    height: 600px;
+    background-image: url(../img/l4.jpg);
+    background-size: cover;
+}
+
+.streamer-6 .center div:nth-child(2) {
+    float: right;
+    width: 50%;
+    height: 600px;
+    background-image: url(../img/l5.jpg);
+    background-size: cover;
+}
+
+.streamer-6 .right div:nth-child(1) {
+    float: left;
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/l6.jpg);
+    background-size: cover;
+}
+
+.streamer-6 .right div:nth-child(2) {
+    float: left;
+    width: 50%;
+    height: 300px;
+    background-image: url(../img/l7.jpg);
+    background-size: cover;
+}
+
+.streamer-6 .right div:nth-child(3) {
+    float: right;
+    width: 50%;
+    height: 300px;
+    background-image: url(../img/l8.jpg);
+    background-size: cover;
+}
+
+/* Streamer 7 */
+.streamer-7 {
+    padding: 2em 0 2em 0;
+    background-color: #282F35;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.streamer-7 h1 a {
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 0.8em 3em 0.8em 3em;
+    border: 1px solid;
+}
+
+/* Contact */
+
+.contact {
+    padding: 5em 0 5em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
