@@ -1,0 +1,498 @@
+/* IMPORT */
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Header */
+
+header {
+    height: 56em;
+    background-image: url("../img/hero.jpg");
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: 1;
+}
+
+header nav {
+    padding-top: 2em;
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+}
+
+header nav ul {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 1em;
+    margin-right: 1em;
+    text-transform: uppercase;
+}
+
+header nav ul img {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.fakebody {
+    position: relative;
+    margin: 0 0 0 0;
+    z-index: 999;
+    background-color: #ffffff;
+}
+
+/* Streamer 1 */
+
+.streamer-1 {
+    text-transform: uppercase;
+    padding: 5em 0 5em 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #F7F7F7;
+}
+
+.streamer-1 p {
+    text-transform: lowercase;
+    color: gray;
+    font-size: 20px;
+}
+
+/* Streamer 2 */
+
+.streamer-2 {
+    overflow: hidden;
+}
+
+.streamer-2 .right {
+    width: 33.33%;
+    float: right;
+}
+
+.streamer-2 .left {
+    background-image: url(../img/left-box-1.jpg);
+    background-size: cover;
+    width: 66.66%;
+    float: left;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.streamer-2 .left img {
+    width: 130px;
+    height: 130px;
+    align-self: center;
+}
+
+.streamer-2 .right div:nth-child(1) {
+    height: 396px;
+    text-transform: uppercase;
+    padding: 0 3em 0 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.streamer-2 .right div:nth-child(1) p {
+    text-transform: lowercase;
+    color: gray;
+    font-size: 16px;
+}
+
+.streamer-2 .right .streamer-2-img {
+    width: 100%;
+    height: 204px;
+    margin: 0 auto;
+    background-image: url(../img/seat-red.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.streamer-2 .right .streamer-2-img img {
+    width: 21px;
+    height: 10px;
+    margin-top: -1px;
+}
+
+.streamer-2 .right div:nth-child(2) .streamer-2-img img {
+    width: 21px;
+}
+
+/* Streamer 3 */
+
+.streamer-3 {
+    overflow: hidden;
+}
+
+.streamer-3 .left {
+    width: 33.33%;
+    float: left;
+}
+
+.streamer-3 .right {
+    background-image: url(../img/left-box-2.jpg);
+    background-size: cover;
+    width: 66.66%;
+    float: right;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.streamer-3 .right img {
+    width: 130px;
+    height: 130px;
+    align-self: center;
+}
+
+.streamer-3 .left div:nth-child(1) {
+    height: 396px;
+    text-transform: uppercase;
+    padding: 0 3em 0 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.streamer-3 .left div:nth-child(1) p {
+    text-transform: lowercase;
+    color: gray;
+    font-size: 16px;
+}
+
+.streamer-3 .left .streamer-3-img {
+    width: 100%;
+    height: 204px;
+    margin: 0 auto;
+    background-image: url(../img/seat-black.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.streamer-3 .left .streamer-3-img img {
+    width: 21px;
+    height: 10px;
+    margin-top: -1px;
+}
+
+/* Streamer 4 */
+
+.streamer-4 {
+    overflow: hidden;
+}
+
+.streamer-4 .left {
+    width: 33.33%;
+    float: left;
+}
+
+.streamer-4 .right {
+    background-image: url(../img/red-bike.jpg);
+    background-size: cover;
+    width: 33.33%;
+    float: right;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.streamer-4 .left img {
+    align-self: center;
+}
+
+.streamer-4 .left {
+    background-image: url(../img/red-frame.jpg);
+    background-size: cover;
+    width: 33.33%;
+    float: left;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.streamer-4 .left div:nth-child(1) p {
+    text-transform: lowercase;
+    color: gray;
+    font-size: 16px;
+}
+
+.streamer-4 .left .streamer-4-img {
+    width: 100%;
+    height: 204px;
+    margin: 0 auto;
+    background-image: url(../img/seat-red.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.streamer-4 .center {
+    width: 33.33%;
+    float: left;
+    height: 600px;
+}
+
+.streamer-4 .center div:nth-child(1) {
+    height: 396px;
+    text-transform: uppercase;
+    padding: 0 3em 0 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.streamer-4 .center div:nth-child(1) p {
+    text-transform: lowercase;
+    color: gray;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.streamer-4 .center .streamer-4-img {
+    width: 100%;
+    height: 204px;
+    margin: 0 auto;
+    background-image: url(../img/chrome-wheels.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.streamer-4 .center .streamer-4-img img {
+    width: 21px;
+    height: 10px;
+    margin-top: -1px;
+}
+
+/* Streamer 5 */
+
+.streamer-5 {
+    overflow: hidden;
+    padding: 3em 0 3em 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #F7F7F7;
+}
+
+.streamer-5 h1 {
+    margin: 1em 0 1em 0;
+    font-size: 20px;
+}
+
+.streamer-5 p, .streamer-5 span {
+    color: gray;
+    font-size: 20px;
+}
+
+/* Streamer 6 */
+
+.streamer-6 {
+    overflow: hidden;
+}
+
+.streamer-6 .left {
+    float: left;
+    height: 600px;
+    width: 33.33%;
+}
+
+.streamer-6 .center {
+    float: left;
+    height: 600px;
+    width: 33.33%;
+}
+
+.streamer-6 .right {
+    float: right;
+    height: 600px;
+    width: 33.33%;
+}
+
+.streamer-6 .left div:nth-child(1) {
+    float: left;
+    width: 50%;
+    height: 300px;
+    background-image: url(../img/l1.jpg);
+    background-size: cover;
+}
+
+.streamer-6 .left div:nth-child(2) {
+    float: right;
+    width: 50%;
+    height: 300px;
+    background-image: url(../img/l2.jpg);
+    background-size: cover;
+}
+
+.streamer-6 .left div:nth-child(3) {
+    float: left;
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/l3.jpg);
+    background-size: cover;
+}
+
+.streamer-6 .center div:nth-child(1) {
+    float: left;
+    width: 50%;
+    height: 600px;
+    background-image: url(../img/l4.jpg);
+    background-size: cover;
+}
+
+.streamer-6 .center div:nth-child(2) {
+    float: right;
+    width: 50%;
+    height: 600px;
+    background-image: url(../img/l5.jpg);
+    background-size: cover;
+}
+
+.streamer-6 .right div:nth-child(1) {
+    float: left;
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/l6.jpg);
+    background-size: cover;
+}
+
+.streamer-6 .right div:nth-child(2) {
+    float: left;
+    width: 50%;
+    height: 300px;
+    background-image: url(../img/l7.jpg);
+    background-size: cover;
+}
+
+.streamer-6 .right div:nth-child(3) {
+    float: right;
+    width: 50%;
+    height: 300px;
+    background-image: url(../img/l8.jpg);
+    background-size: cover;
+}
+
+/* Streamer 7 */
+.streamer-7 {
+    padding: 2em 0 2em 0;
+    background-color: #282F35;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.streamer-7 h1 a {
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 0.8em 3em 0.8em 3em;
+    border: 1px solid;
+}
+
+/* Contact */
+
+.contact {
+    padding: 5em 0 5em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact h1 {
+    color: grey;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.contact form input {
+    padding: 0 15px;
+    width: 230px;
+    height: 50px;
+    box-sizing: border-box;
+    font-style: italic;
+}
+
+.contact form button {
+    background-color: #5ec29d;
+    color: white;
+    padding: 15px;
+    width: 80px;
+    border: none;
+    height: 50px;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+    background-color: #F7F7F7;
+}
+
+.footer-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    color: grey;
+    font-size: 14px;
+}
+
+.footer-div .left {
+    float: left;
+    width: 33.33%;
+}
+
+footer .footer-div .left h3:nth-child(1) {
+    font-weight: 900;
+}
+
+.footer-div .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    width: 33.33%;
+}
+
+.footer-div .center img {
+    margin: 0 0.5em 0 0.5em;
+}
+
+.footer-div .right {
+    float: right;
+    width: 33.33%;
+    text-align: right;
+} 
