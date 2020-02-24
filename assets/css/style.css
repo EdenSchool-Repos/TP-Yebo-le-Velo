@@ -496,3 +496,174 @@ footer .footer-div .left h3:nth-child(1) {
     width: 33.33%;
     text-align: right;
 } 
+
+@media (max-width: 1047px) {
+    /* Header */
+
+    header nav {
+        padding-top: 2em;
+        z-index: 2;
+        position: fixed;
+        width: 100%;
+        display: none;
+    }
+
+    header nav ul img {
+        margin-left: 2em;
+        margin-right: 2em;
+        display: inline-block;
+    }
+
+   /* Streamer 2 */
+
+    .streamer-2 .right {
+        width: 100%;
+        float: none;
+    }
+
+    .streamer-2 .left {
+        background-image: url(../img/left-box-1.jpg);
+        background-size: cover;
+        width: 100%;
+        float: none;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Streamer 3 */
+
+    .streamer-3 .left {
+        width: 100%;
+        float: none;
+    }
+
+    .streamer-3 .right {
+        background-image: url(../img/left-box-2.jpg);
+        background-size: cover;
+        width: 100%;
+        float: none;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Streamer 4 */
+
+    .streamer-4 .left {
+        width: 100%;
+        float: none;
+    }
+
+    .streamer-4 .right {
+        background-image: url(../img/red-bike.jpg);
+        background-size: cover;
+        width: 100%;
+        float: none;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .streamer-4 .left {
+        background-image: url(../img/red-frame.jpg);
+        background-size: cover;
+        width: 100%;
+        float: none;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .streamer-4 .center {
+        width: 100%;
+        float: none;
+        height: 600px;
+    }
+
+    .streamer-4 .center .streamer-4-img {
+        width: 100%;
+        height: 204px;
+        margin: 0 auto;
+        background-image: url(../img/chrome-wheels.jpg);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Streamer 5 */
+    .streamer-5 p {
+        color: gray;
+        font-size: 20px;
+        margin: 0 3em;
+    }
+
+    /* Streamer 6 */
+    .streamer-6 .left {
+        float: none;
+        height: 600px;
+        width: 100%;
+    }
+
+    .streamer-6 .center {
+        float: none;
+        height: 600px;
+        width: 100%;
+    }
+
+    .streamer-6 .right {
+        float: none;
+        height: 600px;
+        width: 100%;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 350px;
+        background-color: #F7F7F7;
+    }
+
+    .footer-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 70%;
+        color: grey;
+        font-size: 14px;
+    }
+
+    .footer-div .left {
+        float: none;
+        width: 100%;
+        text-align: center;
+        padding: 0.3em 0;
+    }
+
+    footer .footer-div .left h3:nth-child(1) {
+        font-weight: 900;
+    }
+
+    .footer-div .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        float: none;
+        width: 100%;
+        padding: 0.3em 0;
+    }
+
+    .footer-div .center img {
+        margin: 0 0.5em 0 0.5em;
+    }
+
+    .footer-div .right {
+        float: none;
+        width: 100%;
+        text-align: center;
+        padding: 0.3em 0;
+    } 
+  }
